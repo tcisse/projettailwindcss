@@ -11,7 +11,7 @@
 <body>
   
 <nav class=" bg-white border-gray-200 px-2 sm:px-4 py-2.5 rounded dark:bg-gray-800">
-  <div class="container flex flex-wrap justify-between items-center mx-auto">
+  <div class=" hidden container flex flex-wrap justify-between items-center mx-auto md:flex">
   <a href="#" class="flex">
   <svg class="mr-3 h-10" viewBox="0 0 52 72" fill="none" xmlns="http://www.w3.org/2000/svg"></svg>
   <span class="self-center text-lg font-semibold whitespace-nowrap dark:text-white">Blog Numwix</span>
@@ -44,6 +44,49 @@
   </nav>
   </nav>   
 <!--Navigation moible-->
+<nav class="absolute top-2 w-11/12 left-1/2 transform -translate-x-1/2 shadow-md ring-1 ring-black ring-opacity-5 p-1 md:hidden rounded-lg bg-white">
+  <div class="px-2 h-16 flex items-center justify-between">
+
+    <a href="#accueil">
+    </a>
+
+    <div class="-mr-2">
+      <button class="icone-toggle bg-white rounded-md p-2 inline-flex items-center justify-center ring-1 ring-black ring-opacity-20">
+        <img src="ressources/menu.svg" alt="icône de menu" class="h-6 w-6">
+      </button>
+    </div>
+
+  </div>
+
+  <ul class="toggle-menu hidden p-2">
+
+    <li>
+      <a href="#accueil" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50">
+        Accueil
+      </a>
+    </li>
+
+    <li>
+      <a href="#services" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50">
+        Services
+      </a>
+    </li>
+
+    <li>
+      <a href="#tarifs" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50">
+        Nos tarifs
+      </a>
+    </li>
+
+    <li>
+      <a href="#contact" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50">
+        Contact
+      </a>
+    </li>
+
+  </ul>
+
+</nav>
 
 
 
